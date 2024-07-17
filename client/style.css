@@ -1,0 +1,126 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('./public/images/nenad-novakovic-mvG5WDANqPw-unsplash.jpg');
+    background-size: cover;
+    background-clip: initial;
+    overflow-y:auto;
+}
+
+body::-webkit-scrollbar{
+    width: 15px;
+}
+
+body::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+body::-webkit-scrollbar:hover{
+    width: 20px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.full-height {
+  height: 90vh;
+  width: 100vw;
+}
+
+.googleFontStyle {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 600;
+}
+
+.emptyColumn{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    background-color: black;
+    position: fixed;
+    z-index: 1000;
+}
+
+.emptyColumn p{
+    margin-left: 5rem;
+}
+
+.navLinks{
+    height: 10vh;
+    background-color: black;
+    z-index: 1000;
+}
+
+.navLinks a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+.navLinks a:hover{
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.nameAndTitle{
+    height: 100vh;
+}
+
+.link {
+  height: 3.5rem;
+  width: 33%;
+  margin-right: 15px;
+  /* box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.3); */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.link a:hover{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.linkTitle {
+  margin-left: 10px;
+  font-size: 1.5rem;
+}
+
+.skillData ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.skillData ul div {
+    width: calc(100% / 4);
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.skillData ul div:hover{
+    background-color: white;
+    color: black;
+}
